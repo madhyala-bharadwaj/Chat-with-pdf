@@ -135,8 +135,8 @@ chat-with-pdf/
 │
 ├── .env                     # Environment variables
 ├── app.py                   # Main Streamlit app script
-├── openai_helper.py         # Handles OpenAI API calls
-├── pinata_helper.py         # Handles PDF uploads to Pinata
+├── openai_file.py           # Handles OpenAI API calls
+├── pinata.py                # Handles PDF uploads to Pinata
 ├── utils.py                 # Utility functions
 ├── requirements.txt         # Python dependencies
 └── README.md                # Project documentation
