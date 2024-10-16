@@ -2,8 +2,8 @@ import streamlit as st
 import os
 import json
 import logging
-from pinata_helper import upload_pdf_to_pinata
-from openai_helper import get_openai_response
+from pinata import upload_pdf_to_pinata
+from openai_file import get_openai_response
 from PyPDF2 import PdfReader
 from dotenv import load_dotenv
 import traceback
